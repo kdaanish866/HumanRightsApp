@@ -4,6 +4,7 @@ h1 {
   justify-content: left;
   height: 100px;
   text-indent: 50px;
+  line-height: 1.5;
   background: rgb(188, 231, 232);
 }
 
@@ -12,7 +13,6 @@ h1 {
   align-items: right;
   justify-content: right;
   height: 80px;
-  text-indent: 50px;
   background: rgb(188, 231, 232);
 }
 
@@ -21,6 +21,5 @@ h1 {
   align-items: right;
   justify-content: right;
   height: 70px;
-  text-indent: -50px;
   background: rgb(188, 231, 232);
 }
