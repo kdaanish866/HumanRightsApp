@@ -1,12 +1,9 @@
-.profile {
-  background: rgb(188, 231, 232);
-}
-
 h1 {
   display: flex;
   align-items: left;
   justify-content: left;
   height: 100px;
+  text-indent: 50px;
   background: rgb(188, 231, 232);
 }
 
@@ -15,6 +12,7 @@ h1 {
   align-items: right;
   justify-content: right;
   height: 80px;
+  text-indent: 50px;
   background: rgb(188, 231, 232);
 }
 
@@ -23,5 +21,6 @@ h1 {
   align-items: right;
   justify-content: right;
   height: 70px;
+  text-indent: -50px;
   background: rgb(188, 231, 232);
 }
