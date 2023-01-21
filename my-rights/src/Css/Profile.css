@@ -3,7 +3,7 @@ h1 {
   align-items: left;
   justify-content: left;
   height: 100px;
-  text-indent: 100px;
+  text-indent: 400px;
   line-height: 2;
   background: rgb(188, 231, 232);
 }
@@ -13,7 +13,7 @@ h1 {
   align-items: right;
   justify-content: right;
   height: 80px;
-  text-indent: -300px;
+  text-indent: -500px;
   background: rgb(188, 231, 232);
 }
 
@@ -22,5 +22,6 @@ h1 {
   align-items: right;
   justify-content: right;
   height: 70px;
+  text-indent: -500px;
   background: rgb(188, 231, 232);
 }

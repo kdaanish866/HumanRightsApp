@@ -10,11 +10,15 @@ const Profile = () => {
           <div className="stats">
             <div className="name">
               <h2>Name:</h2>
-              <p>Jane Doe</p>
+              <div className="nameInfo">
+                <p>Jane Doe</p>
+              </div>
             </div>
             <div className="department">
               <h3>Department:</h3>
-              <p>John Appleseed</p>
+              <div className="nameInfo">
+                <p>New York Police Department</p>
+              </div>
             </div>
           </div>
         </div>
