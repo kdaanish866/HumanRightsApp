@@ -9,10 +9,12 @@ const Profile = () => {
           <h1>Profile</h1>
           <div className="stats">
             <div className="name">
-              <h2>Name</h2>
+              <h2>Name:</h2>
+              <p>Jane Doe</p>
             </div>
             <div className="department">
-              <h3>Department</h3>
+              <h3>Department:</h3>
+              <p>John Appleseed</p>
             </div>
           </div>
         </div>
