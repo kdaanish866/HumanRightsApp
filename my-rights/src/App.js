@@ -1,17 +1,23 @@
-import React from 'react';
+import React from "react";
 import './App.css';
-import Landing from './pages/Landing';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { Switch, Route } from "react-router-dom";
+import Landing from "./Pages/Landing";
+import Search from "./Pages/Search";
+import Profile from "./Pages/Profile";
+
 
 
 function App(){
   return (
-    <Router>
-      <Routes>
-        <Route path="/" element={<Landing />}/>
-      </Routes>
-    </Router>
-  );
+ 
+    <Switch>
+      <Route exact path="/" component={Landing}/>
+      <Route path="/search" component={Search}/>
+      <Route path="/profile" component={Profile}/>
+
+    </Switch>
+
+  )
 }
 
 export default App;
