@@ -1,9 +1,10 @@
 .container {
+    background: linear-gradient(#cbdfe0, #9fb1dd);
+
     display: flex;
     align-items: center;
     justify-content: center;
     min-height: 100vh;
-    background: rgb(188, 231, 232);
 
 }
 
@@ -17,8 +18,8 @@
 
 .btnBox .btn {
     position: relative;
-    width: 180px;
-    height: 60px;
+    width: 200px;
+    height: 70px;
     display: inline-block;
     background: #fff;
     margin: 20px;
@@ -33,6 +34,16 @@
     background: red;
 }
 
+.btnBox .btn:nth-child(1)::before,
+.btnBox .btn:nth-child(1):after {
+    background: linear-gradient(45deg, #4789ed, rgb(211, 219, 221), rgb(15, 222, 237));
+}
+
+.btnBox .btn:nth-child(2)::before,
+.btnBox .btn:nth-child(2):after {
+    background: linear-gradient(45deg, rgb(15, 222, 237),rgb(211, 219, 221), #4789ed);
+}
+
 .btnBox .btn .policeProfile,
 .btnBox .btn .searchProfile {
     position: absolute;
@@ -41,7 +52,7 @@
     width: 100%;
     height: 100%;
     display: inline-block;
-    background: white;
+    background: #bddced;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -50,9 +61,30 @@
     text-transform: uppercase;
     letter-spacing: 2px;
     font-size: 1.2em;
-    color: darkblue;
+    overflow: hidden;
+    border: 1px solid rgb(3, 3, 77);
+    color: rgb(3, 3, 77);
 }
 
-.btnBox .btn :hover:before {
+.btnBox .btn .policeProfile::before, 
+.btnBox .btn .searchProfile::before
+{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -50%;
+    width: 100%;
+    height: 100%;
+    background: rgb(0,0,0, 0.075);
+    transform: skew(25deg);
+}
+
+
+.btnBox .btn:hover:before {
     inset: -3px;
+}
+
+.btnBox .btn:hover:after  {
+    inset: -3px;
+    filter: blur(12px);
 }
