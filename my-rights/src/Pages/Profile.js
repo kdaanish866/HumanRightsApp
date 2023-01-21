@@ -15,8 +15,9 @@ const Profile = () => {
           </div>
           <div className="department">
             <h2>Department:</h2>
-            <div className="nameInfo">
+            <div className="departmentInfo">
               <p>New York Police Department</p>
+              <img src="profilepicture.jpeg" class="img" alt="" />
             </div>
           </div>
         </div>

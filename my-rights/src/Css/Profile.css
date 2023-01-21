@@ -5,7 +5,7 @@ h1 {
   height: 100px;
   text-indent: 350px;
   line-height: 4;
-  font-size: 40px;
+  font-size: 50px;
   font-family: "Times New Roman", Times, serif;
   background: rgb(188, 231, 232);
 }
@@ -25,9 +25,9 @@ h1 {
   display: flex;
   align-items: right;
   justify-content: right;
-  height: 50px;
-  text-indent: -550px;
-  font-size: 20px;
+  height: 70px;
+  text-indent: -600px;
+  font-size: 30px;
   font-family: "Times New Roman", Times, serif;
   background: rgb(188, 231, 232);
 }
@@ -48,8 +48,8 @@ h1 {
   align-items: right;
   justify-content: right;
   height: 70px;
-  text-indent: -400px;
-  font-size: 20px;
+  text-indent: -520px;
+  font-size: 30px;
   font-family: "Times New Roman", Times, serif;
   background: rgb(188, 231, 232);
 }
