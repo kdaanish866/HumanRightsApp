@@ -12,10 +12,10 @@ return(
             <p>blah blah</p>
             <div className='btnBox'>
                 <div className='btn'>
-                    <NavLink to="/profile" className="policeProfile">Register as Police Officer</NavLink>
+                    <NavLink to="/profile" className="policeProfile" style={{ textDecoration: 'none' }}>Register as Police Officer</NavLink>
                 </div>
                 <div className='btn'>
-                    <NavLink to="/search" className="searchProfile">Find a Police Officer</NavLink>
+                    <NavLink to="/search" className="searchProfile" style={{ textDecoration: 'none' }}>Find a Police Officer</NavLink>
                 </div>
             </div>
         </div>

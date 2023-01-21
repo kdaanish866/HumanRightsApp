@@ -50,5 +50,9 @@
     text-transform: uppercase;
     letter-spacing: 2px;
     font-size: 1.2em;
-    
+    color: darkblue;
+}
+
+.btnBox .btn :hover:before {
+    inset: -3px;
 }
