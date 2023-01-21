@@ -3,8 +3,10 @@ h1 {
   align-items: left;
   justify-content: left;
   height: 100px;
-  text-indent: 400px;
-  line-height: 2;
+  text-indent: 300px;
+  line-height: 3;
+  font-size: 40px;
+  font-family: "Times New Roman", Times, serif;
   background: rgb(188, 231, 232);
 }
 
@@ -13,7 +15,20 @@ h1 {
   align-items: right;
   justify-content: right;
   height: 80px;
-  text-indent: -500px;
+  text-indent: -700px;
+  font-size: 20px;
+  font-family: "Times New Roman", Times, serif;
+  background: rgb(188, 231, 232);
+}
+
+.nameInfo {
+  display: flex;
+  align-items: right;
+  justify-content: right;
+  height: 50px;
+  text-indent: -550px;
+  font-size: 20px;
+  font-family: "Times New Roman", Times, serif;
   background: rgb(188, 231, 232);
 }
 
@@ -22,6 +37,19 @@ h1 {
   align-items: right;
   justify-content: right;
   height: 70px;
-  text-indent: -500px;
+  text-indent: -700px;
+  font-size: 20px;
+  font-family: "Times New Roman", Times, serif;
+  background: rgb(188, 231, 232);
+}
+
+.departmentInfo {
+  display: flex;
+  align-items: right;
+  justify-content: right;
+  height: 70px;
+  text-indent: -550px;
+  font-size: 20px;
+  font-family: "Times New Roman", Times, serif;
   background: rgb(188, 231, 232);
 }
