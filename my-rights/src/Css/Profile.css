@@ -3,8 +3,8 @@ h1 {
   align-items: left;
   justify-content: left;
   height: 100px;
-  text-indent: 300px;
-  line-height: 3;
+  text-indent: 350px;
+  line-height: 4;
   font-size: 40px;
   font-family: "Times New Roman", Times, serif;
   background: rgb(188, 231, 232);
@@ -48,7 +48,7 @@ h1 {
   align-items: right;
   justify-content: right;
   height: 70px;
-  text-indent: -550px;
+  text-indent: -400px;
   font-size: 20px;
   font-family: "Times New Roman", Times, serif;
   background: rgb(188, 231, 232);

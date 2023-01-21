@@ -14,14 +14,11 @@ const Profile = () => {
             </div>
           </div>
           <div className="department">
-            <h3>Department:</h3>
+            <h2>Department:</h2>
             <div className="nameInfo">
               <p>New York Police Department</p>
             </div>
           </div>
-        </div>
-        <div className="stars">
-          <img src="star.png" alt="" />
         </div>
       </div>
     </>
