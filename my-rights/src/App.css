@@ -1,6 +1,8 @@
 * {
   margin: 0;
   padding: 0;
+  font-family: 'PT Sans', sans-serif;
+
 }
 
 :root {
@@ -9,3 +11,4 @@
   --box-shadow: 0px 19px 60px rgb(0, 0, 0 / 8%);
   --gray: rgb(182, 182, 182);
 }
+
