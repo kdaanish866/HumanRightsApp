@@ -55,15 +55,15 @@ h1 {
   display: flex;
   align-items: center;
   justify-content: center;
-  min-height: 130vh;
+  min-height: 200vh;
   background: rgb(188, 231, 232);
 }
 
-.names {
+.name {
   display: flex;
   align-items: right;
   justify-content: right;
-  min-height: 100vh;
+  min-height: 170vh;
   background: rgb(188, 231, 232);
 }
 
@@ -71,7 +71,7 @@ h1 {
   display: flex;
   align-items: right;
   justify-content: right;
-  min-height: 80vh;
+  min-height: 150vh;
   background: rgb(188, 231, 232);
 }
 
