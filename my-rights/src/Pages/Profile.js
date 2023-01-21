@@ -1,15 +1,17 @@
 import React from "react";
-import "../Css/Landing.css";
+import "../Css/Profile.css";
 
 const Profile = () => {
   return (
     <>
-      <div className="policeProfile">
+    <h1>jna wdna</h1>
+    <div>jANWDJKANWd</div>
+    {/* <div className="policeProfile">
         <div className="contentBox">
           <h1>Profile</h1>
         </div>
-      </div>
+    </div> */}
     </>
-  );
-};
+  )
+}
 export default Profile;

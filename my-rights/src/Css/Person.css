@@ -1,0 +1,35 @@
+
+.person {
+    color: white;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 1rem;
+    width: 13rem;
+    height: 15rem;
+    background: rgba(0,0,0,0.26);
+    border: 7px solid var(--person-card);
+    box-shadow: var(--box-shadow);
+    border-radius: 20px;
+    padding: 0 26px 2rem 26px;
+}
+
+.person span:nth-of-type(2) {
+    color: var(--gray);
+    font-size: 16px;
+}
+
+.person > img {
+    transform: scale(0.6);
+    margin-bottom: -2rem;
+}
+
+.persons {
+    position: relative;
+}
+
+.persons>* {
+    position: absolute;
+}
