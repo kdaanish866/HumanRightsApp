@@ -55,7 +55,7 @@ h1 {
   display: flex;
   align-items: center;
   justify-content: center;
-  min-height: 200vh;
+  min-height: 100vh;
   background: rgb(188, 231, 232);
 }
 
@@ -63,7 +63,7 @@ h1 {
   display: flex;
   align-items: right;
   justify-content: right;
-  min-height: 170vh;
+  min-height: 100vh;
   background: rgb(188, 231, 232);
 }
 
@@ -71,7 +71,7 @@ h1 {
   display: flex;
   align-items: right;
   justify-content: right;
-  min-height: 150vh;
+  min-height: 100vh;
   background: rgb(188, 231, 232);
 }
 
