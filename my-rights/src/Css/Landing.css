@@ -1,10 +1,9 @@
 .container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    min-height: 100vh;
-    background: rgb(188, 231, 232);
-
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: rgb(188, 231, 232);
 }
 
 .btnBox {
@@ -15,12 +14,12 @@
 }
 
 .btnBox .btn {
-    position: relative;
-    width: 180px;
-    height: 60px;
-    display: inline-block;
-    background: #fff;
-    margin: 20px;
+  position: relative;
+  width: 180px;
+  height: 60px;
+  display: inline-block;
+  background: #fff;
+  margin: 20px;
 }
 
 .btnBox .btn:before,
@@ -34,34 +33,52 @@
 
 .btnBox .btn:nth-child(1)::before,
 .btnBox .btn:nth-child(1):after {
-    background: linear-gradient(45deg, #4789ed, rgb(211, 219, 221), rgb(15, 222, 237));
+  background: linear-gradient(
+    45deg,
+    #4789ed,
+    rgb(211, 219, 221),
+    rgb(15, 222, 237)
+  );
 }
 
 .btnBox .btn:nth-child(2)::before,
 .btnBox .btn:nth-child(2):after {
-    background: linear-gradient(45deg, rgb(15, 222, 237),rgb(211, 219, 221), #4789ed);
+  background: linear-gradient(
+    45deg,
+    rgb(15, 222, 237),
+    rgb(211, 219, 221),
+    #4789ed
+  );
+}
+
+.stats {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: rgb(188, 231, 232);
 }
 
 .btnBox .btn .policeProfile,
 .btnBox .btn .searchProfile {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    display: inline-block;
-    background: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    z-index: 10;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    font-size: 1.2em;
-    color: darkblue;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: inline-block;
+  background: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  z-index: 10;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 1.2em;
+  color: darkblue;
 }
 
 .btnBox .btn :hover:before {
-    inset: -3px;
+  inset: -3px;
 }
