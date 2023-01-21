@@ -13,6 +13,7 @@ h1 {
   align-items: right;
   justify-content: right;
   height: 80px;
+  text-indent: -300px;
   background: rgb(188, 231, 232);
 }
 
