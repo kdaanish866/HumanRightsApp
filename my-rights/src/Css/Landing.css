@@ -51,11 +51,27 @@
   );
 }
 
-.stats {
+h1 {
   display: flex;
   align-items: center;
   justify-content: center;
+  min-height: 130vh;
+  background: rgb(188, 231, 232);
+}
+
+.names {
+  display: flex;
+  align-items: right;
+  justify-content: right;
   min-height: 100vh;
+  background: rgb(188, 231, 232);
+}
+
+.department {
+  display: flex;
+  align-items: right;
+  justify-content: right;
+  min-height: 80vh;
   background: rgb(188, 231, 232);
 }
 
