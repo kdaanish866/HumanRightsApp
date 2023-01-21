@@ -1,6 +1,5 @@
 import React from "react";
 import "../Css/Profile.css";
-import profilePic from "./profilepicturejpeg";
 
 const Profile = () => {
   return (
@@ -9,7 +8,7 @@ const Profile = () => {
         <div className="top">
           <h1>Profile</h1>
           <div className="stats">
-            <img src={profilePic} className="img" />
+            <img src={require("./profilepicturejpeg")} className="img" alt="" />
             <div className="name">
               <h2>Name:</h2>
               <div className="nameInfo">
