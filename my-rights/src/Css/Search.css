@@ -1,27 +1,68 @@
-body {
-
-    background: linear-gradient(90deg, #a0eff4 60%, #96ade9);
-    padding: margin-top;
-    
-}
-body {
-    text-align: center;
+button {
+    appearance: none;
+    border: none;
+    outline: none;
 }
 
 form {
-    display: inline-block;
-    padding: 40px;
-    max-width: 600px;
-    margin: 40px auto;
-    border-radius: 4px;
-    box-shadow: 0 4px 10px 4px rgba(19, 35, 47, 0.3);
-    
+    position: fixed;
+    top:25%;
+    left: 35%;
+    z-index: 1500;
+    width: 360px;
 }
 
-.wrapper {
-    padding: 200px 50px;
+form .form-inner {
+    position: relative;
+    display: block;
+    padding: 30px;
+    background-color: transparent;
 }
 
-.wrapper fieldset {
-    margin: 200px 10;
+form .form-inner h2 {
+    font-size: 28px;
+    color: var(--person-card);
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+
+.form-inner .form-group label {
+    display: block;
+    color: #666;
+    font-size: 12px;
+    margin-bottom: 5px;
+    transition: 0.4s;
+}
+
+.form-inner .form-group:focus-within label {
+    color: blue;
+}
+
+form .form-inner .form-group input {
+    display: block;
+    width: 100%;
+    padding: 10px 15px;
+    background-color: #F8F8F8;
+    border-radius: 8px;
+    transition: 0.4s;
+}
+
+
+form .form-inner .form-group input:focus {
+    box-shadow: 0 0 3px rgba(0,0,0, 0.2);
+}
+
+.form-inner .form-group {
+    margin-top: 10px;
+
+}
+
+.search-button {
+    margin-top: 20px;
+    padding: 5px;
+}
+
+.search-button {
+    margin-top: 20px;
+    padding: 5px;
 }
