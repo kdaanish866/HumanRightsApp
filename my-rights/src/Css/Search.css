@@ -57,7 +57,7 @@ form .form-inner .form-group input:focus {
 
 }
 
-form .form-inner .search-button {
+.search-button {
     margin-top: 20px;
     padding: 5px;
 }

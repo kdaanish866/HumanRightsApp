@@ -3,14 +3,14 @@ import "../Css/Search.css";
 
 const Search=()=> {
 
-  
-    // const submitHandler = e => {
-    //     e.preventDefault();
-    //         }
+    const submitHandler = e => {
+        e.preventDefault(e);
+        console.log(e)
+            }
 
     return (
         <>
-        <form className="form">
+        <form className="form" onSubmit={submitHandler}>
             <div className='form-inner'>
                 <h2>Search</h2>
                 {/* ERROR! */}

@@ -1,9 +1,10 @@
 import {useState} from 'react';
-import './Register.css';
+import '../Css/Register.css';
 
-function App(){
+function Register(){
 
     const[name, setName] = useState('');
+    const[badge, setBadge] = useState('');
     const onChange = (e) => {
         const value = e.target;
 
@@ -12,21 +13,26 @@ function App(){
 
     const showData = () => {
         console.log('Name: ', name)
+        console.log('Badge: ', badge)
     }
   return (
-    <div className = "Register">
-        <header className = "Register-header">
-            <form>
-                <label>
-                    Name:
-                    <input onChange={onChange} name="name" value = {name}/> 
-                </label>
-                <button>onClick={showData}Submit</button>
+    <div className = "register container">
+            <form className='register-form form-inner'>
+                <h2>Register</h2>
+                {/* ERROR! */}
+                <div className='form-group'>
+                    <label htmlFor='name'>Name:</label>
+                    <input onChange={onChange} type="text" name="name" id="name" />
+                </div>
+                <div className='form-group'>
+                    <label htmlFor='badge'>Badge Number:</label>
+                    <input onChange={onChange} type="text" name="badge" id="badge" />
+                </div>
+                <input onClick={showData} className="search-button"type="submit" value="Register"/>
             </form>
-        </header>
     </div>
 
   )
 }
 
-export default App;
+export default Register;

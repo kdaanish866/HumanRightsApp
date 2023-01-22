@@ -32,7 +32,7 @@ const Landing=()=> {
             <div className='contentBox'>
                 <div className='btnBox'>
                     <div className='btn' data-aos="fade-right">
-                        <NavLink to="/profile" className="policeProfile" style={{ textDecoration: 'none' }}>Register as Police Officer</NavLink>
+                        <NavLink to="/register" className="policeProfile" style={{ textDecoration: 'none' }}>Register as Police Officer</NavLink>
                     </div>
                     <div className='btn' data-aos="fade-left">
                         <button onClick={() => setOpenModal(true)} className="searchProfile">Find a Police Officer</button>
