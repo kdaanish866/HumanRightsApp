@@ -1,11 +1,11 @@
 /* CHANGES BY RACHEL */
 .container {
-    background: linear-gradient(#cbdfe0, #9fb1dd);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    height: 100vh;
+  background: linear-gradient(#cbdfe0, #9fb1dd);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
 }
 
 .btnBox {
@@ -55,46 +55,44 @@
 
 .btnBox .btn .policeProfile,
 .btnBox .btn .searchProfile {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    display: inline-block;
-    background: #b3c6de;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    z-index: 10;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    font-size: 1.2em;
-    overflow: hidden;
-    border: 1px solid var(--main-color);
-    color: rgb(3, 3, 77);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: inline-block;
+  background: #b3c6de;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  z-index: 10;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 1.2em;
+  overflow: hidden;
+  border: 1px solid var(--main-color);
+  color: rgb(3, 3, 77);
 }
 
-.btnBox .btn .policeProfile::before, 
-.btnBox .btn .searchProfile::before
-{
-    content: '';
-    position: absolute;
-    top: 0;
-    left: -50%;
-    width: 100%;
-    height: 100%;
-    background: rgb(0,0,0, 0.075);
-    transform: skew(25deg);
+.btnBox .btn .policeProfile::before,
+.btnBox .btn .searchProfile::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -50%;
+  width: 100%;
+  height: 100%;
+  background: rgb(0, 0, 0, 0.075);
+  transform: skew(25deg);
 }
-
 
 .btnBox .btn:hover:before {
-    inset: -3px;
+  inset: -3px;
 }
 
-.btnBox .btn:hover:after  {
-    inset: -3px;
-    filter: blur(15px);
+.btnBox .btn:hover:after {
+  inset: -3px;
+  filter: blur(15px);
 }
 /* CHANGES BY RACHEL */
