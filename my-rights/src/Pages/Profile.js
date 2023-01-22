@@ -3,15 +3,27 @@ import "../Css/Profile.css";
 import profilePic from "../images/pfp.png";
 import unfilledStar from "../images/unfilledStar.png";
 import filledStar from "../images/filledStar.png";
+import AOS from "aos";
+import { useEffect } from "react";
+import "aos/dist/aos.css";
 
 const Profile = () => {
+  useEffect(() => {
+    AOS.init({
+      duration: 400,
+      easing: "ease",
+      once: false,
+    });
+  });
   return (
     <div className="profile">
       <div className="hero-overlay"></div>
-      <img
-        alt="city"
-        src="https://wallpapers.com/images/hd/anime-graphic-of-aesthetic-city-uuz8p9u5atk9a9l2.jpg"
-      />
+      <div className="background">
+        <img
+          alt="city"
+          src="https://wallpapers.com/images/hd/anime-graphic-of-aesthetic-city-uuz8p9u5atk9a9l2.jpg"
+        />
+      </div>
       <div className="text">
         <h1>Profile</h1>
       </div>
@@ -52,11 +64,27 @@ const Profile = () => {
       <div className="talk">
         <h2>Here's what people have to say...</h2>
       </div>
-      <div className="txtBox1">
-        <p>Professional and respectful!</p>
-      </div>
-      <div className="txtBox2">
-        <p>Hostile. Deserves to be fired.</p>
+      <div className="bottom">
+        <div className="txt1" data-aos="fade-left">
+          <p>
+            ★☆☆☆☆ <br /> Hostile and abusive!
+          </p>
+        </div>
+        <div className="txt2" data-aos="fade-right">
+          <p>
+            ★★★★☆ <br /> Respectful and professional.
+          </p>
+        </div>
+        <div className="txt3" data-aos="fade-left">
+          <p>
+            ★★☆☆☆ <br /> Needs investigation.
+          </p>
+        </div>
+        <div className="txt4" data-aos="fade-right">
+          <p>
+            ★★★★★ <br /> Kind and patient!
+          </p>
+        </div>
       </div>
     </div>
   );
