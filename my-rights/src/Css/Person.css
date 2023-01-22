@@ -17,6 +17,7 @@
     padding: 0 26px 2rem 26px;
     font-size: 1.3rem;
     animation: updown 3s linear infinite;
+    transition: 0.5s;
 }
 @keyframes updown {
     0% {
@@ -28,6 +29,10 @@
     100% {
         transform: translateY(-10px);
     }
+}
+
+.person:hover {
+    box-shadow: 0 0 15px var(--main-color);
 }
 
 .person span:nth-of-type(2) {
