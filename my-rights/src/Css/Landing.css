@@ -14,38 +14,48 @@
 }
 
 .btnBox {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
 
 .btnBox .btn {
-    position: relative;
-    width: 200px;
-    height: 70px;
-    display: inline-block;
-    background: #fff;
-    margin: 20px;
+  position: relative;
+  width: 180px;
+  height: 60px;
+  display: inline-block;
+  background: #fff;
+  margin: 20px;
 }
 
 .btnBox .btn:before,
 .btnBox .btn:after {
-    content: '';
-    position: absolute;
-    inset: 0;
-    transition: 0.5s;
-    background: red;
+  content: "";
+  position: absolute;
+  inset: 0;
+  transition: 0.5s;
+  background: red;
 }
 
 .btnBox .btn:nth-child(1)::before,
 .btnBox .btn:nth-child(1):after {
-    background: linear-gradient(45deg, #4789ed, rgb(211, 219, 221), rgb(15, 222, 237));
+  background: linear-gradient(
+    45deg,
+    #4789ed,
+    rgb(211, 219, 221),
+    rgb(15, 222, 237)
+  );
 }
 
 .btnBox .btn:nth-child(2)::before,
 .btnBox .btn:nth-child(2):after {
-    background: linear-gradient(45deg, rgb(15, 222, 237),rgb(211, 219, 221), #4789ed);
+  background: linear-gradient(
+    45deg,
+    rgb(15, 222, 237),
+    rgb(211, 219, 221),
+    #4789ed
+  );
 }
 
 .btnBox .btn .policeProfile,
