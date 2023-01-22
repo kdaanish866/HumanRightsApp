@@ -61,11 +61,24 @@
 
 .talk {
   position: absolute;
-  top: 90%;
-  left: 50%;
+  top: 87%;
+  left: 33%;
   transform: translate(-50%, -50%);
   font-size: 25px;
   color: white;
+  animation: updown 3s linear infinite;
+  transition: 0.5s;
+}
+@keyframes updown {
+  0% {
+    transform: translateY(-10px);
+  }
+  50% {
+    transform: translateY(10px);
+  }
+  100% {
+    transform: translateY(-10px);
+  }
 }
 
 .bottom {
