@@ -1,5 +1,8 @@
 import React from "react";
 import "../Css/Profile.css";
+import profilePic from "../images/pfp.png";
+import unfilledStar from "../images/unfilledStar.png";
+import filledStar from "../images/filledStar.png";
 
 const Profile = () => {
   return (
@@ -12,8 +15,8 @@ const Profile = () => {
       <div className="text">
         <h1>Profile</h1>
       </div>
-      <div className="img">
-        <img src={"./images/pfp.png"} alt="" />
+      <div className="fade-in">
+        <img src={profilePic} alt="Profile" />
       </div>
       <div className="stats">
         <div className="name">
@@ -29,23 +32,31 @@ const Profile = () => {
           </div>
         </div>
       </div>
-      <div className="star1">
-        <img src={"./images/unfilledStar.webp"} alt="" />
-      </div>
-      <div className="star2">
-        <img src={"./images/unfilledStar.webp"} alt="" />
-      </div>
-      <div className="star3">
-        <img src={"./images/star.png"} alt="" />
-      </div>
-      <div className="star4">
-        <img src={"./images/star.png"} alt="" />
-      </div>
-      <div className="star5">
-        <img src={"./images/star.png"} alt="" />
+      <div className="fade-in-stars">
+        <div className="star1">
+          <img src={filledStar} alt="" />
+        </div>
+        <div className="star2">
+          <img src={filledStar} alt="" />
+        </div>
+        <div className="star3">
+          <img src={filledStar} alt="" />
+        </div>
+        <div className="star4">
+          <img src={unfilledStar} alt="" />
+        </div>
+        <div className="star5">
+          <img src={unfilledStar} alt="" />
+        </div>
       </div>
       <div className="talk">
-        <h2>Here's what people have to say</h2>
+        <h2>Here's what people have to say...</h2>
+      </div>
+      <div className="txtBox1">
+        <p>Professional and respectful!</p>
+      </div>
+      <div className="txtBox2">
+        <p>Hostile. Deserves to be fired.</p>
       </div>
     </div>
   );
