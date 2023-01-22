@@ -20,11 +20,6 @@ const Profile = () => {
             </div>
           </div>
         </div>
-        return (
-        <div className="Star">
-          <StarRating />
-        </div>
-        )
       </div>
     </>
   );
