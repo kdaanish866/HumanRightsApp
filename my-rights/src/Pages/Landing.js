@@ -7,42 +7,30 @@ import AOS from "aos";
 import { useEffect } from "react";
 import "aos/dist/aos.css";
 
-const Landing = () => {
+const Landing=()=> {
   useEffect(() => {
     AOS.init({
-      duration: 400,
-      easing: "ease",
-      once: false,
+        duration: 400,
+        easing: "ease",
+        once: false
     });
   });
-  return (
-    <>
-      <Hero />
-      <div className="container">
-        <div className="contentBox">
-          <div className="btnBox">
-            <div className="btn" data-aos="fade-right">
-              <NavLink
-                to="/profile"
-                className="policeProfile"
-                style={{ textDecoration: "none" }}
-              >
-                Register as Police Officer
-              </NavLink>
-            </div>
-            <div className="btn" data-aos="fade-left">
-              <NavLink
-                to="/search"
-                className="searchProfile"
-                style={{ textDecoration: "none" }}
-              >
-                Find a Police Officer
-              </NavLink>
-            </div>
+  return(
+      <>
+      <Hero/>
+      <div className='container' id='landing'>
+          <div className='contentBox'>
+              <div className='btnBox'>
+                  <div className='btn' data-aos="fade-right">
+                      <NavLink to="/profile" className="policeProfile" style={{ textDecoration: 'none' }}>Register as Police Officer</NavLink>
+                  </div>
+                  <div className='btn' data-aos="fade-left">
+                      <NavLink to="/search" className="searchProfile" style={{ textDecoration: 'none' }}>Find a Police Officer</NavLink>
+                  </div>
+              </div>
           </div>
-        </div>
       </div>
-    </>
-  );
-};
+      </>
+)
+}
 export default Landing;

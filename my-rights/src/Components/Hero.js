@@ -4,6 +4,7 @@ import Police from '../images/police.png';
 // CHANGES BY RACHEL
 import Person from '../Components/Person';
 import '../Css/Person.css';
+import {Link} from 'react-scroll';
 
 const Hero=()=> {
 return (
@@ -17,18 +18,23 @@ return (
             </p>
             <div className='persons'>
             <div>
-                <Person
-                icon = {Citizen}
-                heading = {'Citizen?'}
-                desc = {'Search up police officers by Name and Badge Number and write '}
-                />
+                <Link to="landing" spy={true} smooth={true} offset={50} duration={500}>
+                    <Person
+                    icon = {Citizen}
+                    heading = {'Citizen?'}
+                    desc = {'Search up police officers by Name and Badge Number and write them a review after interacting with them. Rate them out of 5 stars!'}
+                    />
+                </Link>
             </div>
             <div style={{left: "30rem"}}>
-                <Person
-                icon = {Police}
-                heading = {'Police Officer?'}
-                desc = {'adw'}
-                />
+                <Link to="landing" spy={true} smooth={true} offset={50} duration={500}>
+                    <Person
+                    icon = {Police}
+                    heading = {'Police Officer?'}
+                    desc = {'Register as a police officer and view what citizens are saying about you! '}
+                    />
+                </Link>
+
             </div>
         </div>
         </div>
@@ -38,4 +44,3 @@ return (
 }
 
 export default Hero;
-// CHANGES BY RACHEL
