@@ -1,0 +1,27 @@
+body {
+
+    background: linear-gradient(90deg, #a0eff4 60%, #96ade9);
+    padding: margin-top;
+    
+}
+body {
+    text-align: center;
+}
+
+form {
+    display: inline-block;
+    padding: 40px;
+    max-width: 600px;
+    margin: 40px auto;
+    border-radius: 4px;
+    box-shadow: 0 4px 10px 4px rgba(19, 35, 47, 0.3);
+    
+}
+
+.wrapper {
+    padding: 200px 50px;
+}
+
+.wrapper fieldset {
+    margin: 200px 10;
+}
