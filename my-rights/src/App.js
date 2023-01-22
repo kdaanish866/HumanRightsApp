@@ -1,3 +1,5 @@
+/* CHANGES BY RACHEL */
+
 import React from "react";
 import './App.css';
 import { Switch, Route } from "react-router-dom";
@@ -25,3 +27,5 @@ const App=()=>{
 }
 
 export default App;
+
+/* CHANGES BY RACHEL */

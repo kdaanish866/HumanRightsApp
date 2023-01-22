@@ -1,3 +1,4 @@
+// CHANGES BY RACHEL
 import React from "react";
 import "../Css/Profile.css";
 
@@ -15,3 +16,4 @@ const Profile = () => {
   )
 }
 export default Profile;
+// CHANGES BY RACHEL

@@ -1,3 +1,4 @@
+// CHANGES BY RACHEL
 import React from 'react';
 import '../Css/Person.css';
 
@@ -11,3 +12,4 @@ const Person = ({icon, heading, desc})=> {
     )
 }
 export default Person;
+// CHANGES BY RACHEL

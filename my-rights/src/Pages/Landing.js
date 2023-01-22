@@ -1,4 +1,4 @@
-
+// CHANGES BY RACHEL
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 import '../Css/Landing.css';
@@ -34,3 +34,4 @@ return(
 )
 }
 export default Landing;
+// CHANGES BY RACHEL

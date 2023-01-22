@@ -1,6 +1,7 @@
 import '../Css/Hero.css';
 import Citizen from '../images/citizen.png';
 import Police from '../images/police.png';
+// CHANGES BY RACHEL
 import Person from '../Components/Person';
 import '../Css/Person.css';
 
@@ -37,3 +38,4 @@ return (
 }
 
 export default Hero;
+// CHANGES BY RACHEL
