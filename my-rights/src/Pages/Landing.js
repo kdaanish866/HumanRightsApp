@@ -1,11 +1,11 @@
 // CHANGES BY RACHEL
-import React from 'react';
-import { NavLink } from 'react-router-dom';
-import '../Css/Landing.css';
-import Hero from '../Components/Hero.js'
-import AOS from 'aos';
-import { useEffect } from 'react';
-import 'aos/dist/aos.css';
+import React from "react";
+import { NavLink } from "react-router-dom";
+import "../Css/Landing.css";
+import Hero from "../Components/Hero.js";
+import AOS from "aos";
+import { useEffect } from "react";
+import "aos/dist/aos.css";
 
 const Landing=()=> {
   useEffect(() => {
