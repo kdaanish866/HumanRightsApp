@@ -7,7 +7,7 @@ import Landing from "./Pages/Landing";
 import Search from "./Pages/Search";
 import Profile from "./Pages/Profile";
 import Register from "./Pages/Register";
-import Navbar from "./Components/Navbar";
+// import Navbar from "./Components/Navbar";
 
 
 
@@ -17,7 +17,7 @@ const App=()=>{
     <>   
 <Switch>
   <Route exact path="/" component={Landing}/>
-  <Navbar/>
+  {/* <Navbar/> */}
   <Route path="/search" component={Search}/>
   <Route path="/profile" component={Profile}/>
   <Route path="/register" component={Register}/>

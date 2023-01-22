@@ -1,4 +1,3 @@
-// CHANGES BY RACHEL
 import React from "react";
 import "../Css/Profile.css";
 
@@ -24,9 +23,8 @@ const Profile = () => {
             </div>
           </div>
         </div>
-    </div>
+      </div>
     </>
-  )
-}
+  );
+};
 export default Profile;
-// CHANGES BY RACHEL
