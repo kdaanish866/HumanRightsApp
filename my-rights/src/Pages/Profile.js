@@ -17,10 +17,14 @@ const Profile = () => {
             <h2>Department:</h2>
             <div className="departmentInfo">
               <p>New York Police Department</p>
-              <img src="profilepicture.jpeg" class="img" alt="" />
             </div>
           </div>
         </div>
+        return (
+        <div className="Star">
+          <StarRating />
+        </div>
+        )
       </div>
     </>
   );

@@ -53,3 +53,20 @@ h1 {
   font-family: "Times New Roman", Times, serif;
   background: rgb(188, 231, 232);
 }
+
+button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.on {
+  color: #000;
+}
+.off {
+  color: #ccc;
+}
+
+body {
+  padding: 100px;
+}
