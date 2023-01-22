@@ -34,13 +34,13 @@ const Profile = () => {
         <div className="name">
           <h2>Name:</h2>
           <div className="nameInfo">
-            <p>Jane Doe</p>
+            <p>John Doe</p>
           </div>
         </div>
-        <div className="department">
-          <h2>Department:</h2>
-          <div className="departmentInfo">
-            <p>New York Police Department</p>
+        <div className="badgeNumber">
+          <h2>Badge Number:</h2>
+          <div className="badgeNumberInfo">
+            <p>12345</p>
           </div>
         </div>
       </div>
@@ -67,20 +67,20 @@ const Profile = () => {
       <div className="bottom">
         <div className="txt1" data-aos="fade-left">
           <p>
-            ★☆☆☆☆ <br /> Hostile and abusive!
+            ★★☆☆☆ <br /> Hostile and abusive!
           </p>
         </div>
-        <div className="txt2" data-aos="fade-right">
+        <div className="txt2" data-aos="fade-left">
           <p>
-            ★★★★☆ <br /> Respectful and professional.
+            ★★★★★ <br /> Respectful!
           </p>
         </div>
         <div className="txt3" data-aos="fade-left">
           <p>
-            ★★☆☆☆ <br /> Needs investigation.
+            ★★★★☆ <br /> Professional.
           </p>
         </div>
-        <div className="txt4" data-aos="fade-right">
+        <div className="txt4" data-aos="fade-left">
           <p>
             ★★★★★ <br /> Kind and patient!
           </p>

@@ -41,7 +41,7 @@
   font-size: 20px;
 }
 
-.department {
+.badgeNumber {
   position: right;
   top: 20%;
   left: 80%;
@@ -50,7 +50,7 @@
   font-size: 25px;
 }
 
-.departmentInfo {
+.bageNumberInfo {
   position: right;
   top: 20%;
   left: 80%;
@@ -61,7 +61,7 @@
 
 .talk {
   position: absolute;
-  top: 87%;
+  top: 85%;
   left: 33%;
   transform: translate(-50%, -50%);
   font-size: 25px;
