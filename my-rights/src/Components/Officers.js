@@ -1,7 +1,9 @@
 import React, { useEffect, useState} from 'react';
 
 function Officers() {
-    const [officers, setOfficers] = useState([]);
+    const [officers, setOfficers] = useState([
+        
+    ]);
 
     useEffect(() => {
         fetch("/officers/").then(res => {

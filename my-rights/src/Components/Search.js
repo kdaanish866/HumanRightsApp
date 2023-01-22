@@ -4,9 +4,9 @@ import "../Css/Search.css";
 const Search=()=> {
 
     const submitHandler = e => {
-        e.preventDefault(e);
-        console.log(e)
-            }
+        e.preventDefault();
+    }
+
 
     return (
         <>

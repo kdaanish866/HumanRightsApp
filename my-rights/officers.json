@@ -1,0 +1,14 @@
+{
+    "officers": [
+        {
+            "name": "John Doe",
+            "badge": "12345",
+            "id": "1"
+        },
+        {
+            "name": "John Smith",
+            "badge": "54321",
+            "id": "2"
+        }
+    ]
+}

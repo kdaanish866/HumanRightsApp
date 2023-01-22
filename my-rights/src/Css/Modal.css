@@ -25,4 +25,6 @@
     position: fixed;
     top: 8px;
     right: 8px;
+    width: 35px;
+    height: auto;
 }

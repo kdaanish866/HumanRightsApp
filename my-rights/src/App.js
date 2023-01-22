@@ -6,6 +6,8 @@ import { Switch, Route } from "react-router-dom";
 import Landing from "./Pages/Landing";
 import Profile from "./Pages/Profile";
 import Register from "./Pages/Register";
+import OfficerList from "./Components/OfficerList";
+import Results from "./Pages/Results";
 // import Modal from "./Components/Modal";
 // import Navbar from "./Components/Navbar";
 
@@ -20,6 +22,9 @@ const App=()=>{
     {/* <Navbar/> */}
     <Route path="/profile" component={Profile}/>
     <Route path="/register" component={Register}/>
+    <Route path="/officers" component={OfficerList}/>
+    <Route path="/results" component={Results}/>
+
   </Switch>
     </>
   )
